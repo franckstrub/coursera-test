@@ -6,6 +6,16 @@
     <title>Hello Franck on Coursera!!</title>
 </head>
 <body>
-    <h1>Hello Franck, You are on Coursera!! <br>It is so great!! isn't it??? I am Franck</h1>
+    <h1>Hello Franck, You are on the Premium DMAIC Suite app!! <br>It is so great!! isn't it??? App developped by Franck Strub</h1>
+    <footer>
+        <p>&copy; <span id="year"> </span> <span> Franck Strub @fullstack_developer</span>
+            <script>
+            const now = new Date().getFullYear();
+            const currentYear = now.toLocaleString();
+              const cyear=currentYear.replace(',','');
+            document.querySelector('#year').textContent = cyear;
+          </script>
+          </p>
+    </footer>
 </body>
 </html>
