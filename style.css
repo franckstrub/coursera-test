@@ -1,0 +1,41 @@
+h1 {
+    color: blue;
+    font-family: verdana;
+        font-size: 200%;
+  }
+  h2 {color:green;
+  font-family: arial;
+  font-size: 100%;
+  }
+  img { 
+    --dot-bg: white;
+    --dot-color: black;
+    --dot-size: 1px;
+    --dot-space: 12px;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color); 
+  }
+  .center_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p {
+    color: gray;
+  }
+  p:hover {
+    color: orange;
+  }
+  .color-red {
+    color: red;
+  }
+  .hover-blue:hover {
+    color:blue;
+  }
+  .bright {
+    color: orange;
+    font-family: Arial;
+  }
+  
