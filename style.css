@@ -21,6 +21,13 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 75%;
+    width: 75%;
+  }
+  @media only screen and (max-width: 1024px) {
+    .center_img {
+      width: 25%;
+    }
   }
   p {
     color: gray;
